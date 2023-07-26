@@ -5,7 +5,7 @@ export default function page() {
   return (
     <section className="md:flex items-center gap-8 min-h-screen">
         <div>
-            <Image className="w-full md:w-1/2 mx-auto" src={BannerContact}/>
+            <Image alt="" className="w-full md:w-1/2 mx-auto" src={BannerContact}/>
         </div>
       <div>
         <h1 className="text-3xl font-semibold">Contact with us</h1>

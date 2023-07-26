@@ -165,7 +165,7 @@ export default function page() {
         </div>
       </div>
       <div className="mb-20 mt-10">
-        <Image className="w-1/2 md:w-1/3 h-fit mx-auto" src={Faq} />
+        <Image alt="" className="w-1/2 md:w-1/3 h-fit mx-auto" src={Faq} />
         <div>
           <section class="text-gray-700">
             <div class="container px-5 py-24 mx-auto">

@@ -13,7 +13,7 @@ export default function page() {
         </h1>
       </div>
       <div>
-        <Image className="w-full md:w-3/5 my-3 h-fit mx-auto" src={About} />
+        <Image alt="" className="w-full md:w-3/5 my-3 h-fit mx-auto" src={About} />
       </div>
       <div className="w-full md:w-2/4 mx-3 md:mx-auto my-24 border-b-2">
         <h1 className="text-3xl font-bold text-center">Our mission</h1>

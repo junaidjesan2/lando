@@ -17,7 +17,7 @@ export default function BannerSignup() {
           <Button text="Sign up now" outline="outline" link="/account/signup"/>
           </div>
         <div>
-            <Image className='w-full md:w-1/2 h-fit mx-auto' src={BannerSignUp}/>
+            <Image alt='' className='w-full md:w-1/2 h-fit mx-auto' src={BannerSignUp}/>
         </div>
         </div>
       </section>

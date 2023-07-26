@@ -38,11 +38,11 @@ export default function Home() {
           </h1>
         </div>
         <div className="flex items-center justify-center gap-7 md:gap-16 my-12">
-          <Image src={Google} className="md:h-16 md:w-16 h-8 w-8" />
-          <Image src={Facebook} className="md:h-16 md:w-16 h-8 w-8" />
-          <Image src={Microsoft} className="md:h-16 md:w-16 h-8 w-8" />
-          <Image src={Snapchat} className="md:h-16 md:w-16 h-8 w-8" />
-          <Image src={Twitter} className="md:h-16 md:w-16 h-8 w-8" />
+          <Image src={Google} alt="" className="md:h-16 md:w-16 h-8 w-8" />
+          <Image src={Facebook} alt="" className="md:h-16 md:w-16 h-8 w-8" />
+          <Image src={Microsoft} alt="" className="md:h-16 md:w-16 h-8 w-8" />
+          <Image src={Snapchat} alt="" className="md:h-16 md:w-16 h-8 w-8" />
+          <Image src={Twitter} alt="" className="md:h-16 md:w-16 h-8 w-8" />
         </div>
       </section>
       <section className="mx-3 my-32">
@@ -60,7 +60,7 @@ export default function Home() {
       </section>
       <section className="mx-3 my-52 md:flex md:gap-10 lg:gap-20">
         <div className="w-full md:w-1/2">
-          <Image src={SafeWork} className="rounded-md" />
+          <Image alt="" src={SafeWork} className="rounded-md" />
         </div>
         <div className="w-full md:w-1/2">
           <div>
@@ -79,7 +79,7 @@ export default function Home() {
       </section>
       <section className="mx-3 my-52 md:flex md:flex-row-reverse md:gap-10 lg:gap-20">
         <div className="w-full md:w-1/2">
-          <Image src={CostSaving} className="rounded-md" />
+          <Image alt="" src={CostSaving} className="rounded-md" />
         </div>
         <div className="w-full md:w-1/2">
           <div>
