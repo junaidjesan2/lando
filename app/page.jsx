@@ -145,7 +145,7 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-7 my-10">
           <div className=" w-full mx-auto px-5 py-8 rounded-md drop-shadow-lg bg-slate-100">
-            <h1>"Since implementing Lando our business has seen significant</h1>
+            <h1>Since implementing Lando our business has seen significant</h1>
             <div className="flex items-center justify-center my-3">
               <FaStar className="text-orange-400" />
               <FaStar className="text-orange-400" />
@@ -159,7 +159,7 @@ export default function Home() {
             </h1>
           </div>
           <div className=" w-full mx-auto px-5 py-8 rounded-md drop-shadow-lg bg-slate-100">
-            <h1>"Since implementing Lando our business has seen significant</h1>
+            <h1>Since implementing Lando our business has seen significant</h1>
             <div className="flex items-center justify-center my-3">
               <FaStar className="text-orange-400" />
               <FaStar className="text-orange-400" />
@@ -173,7 +173,7 @@ export default function Home() {
             </h1>
           </div>
           <div className=" w-full mx-auto px-5 py-8 rounded-md drop-shadow-lg bg-slate-100">
-            <h1>"Since implementing Lando our business has seen significant</h1>
+            <h1>Since implementing Lando our business has seen significant</h1>
             <div className="flex items-center justify-center my-3">
               <FaStar className="text-orange-400" />
               <FaStar className="text-orange-400" />
