@@ -43,7 +43,7 @@ export default function Header() {
           onClick={() => setOpenModal(true)}
           className="flex md:hidden text-2xl px-3 py-2"
         >
-          <CgMenuRightAlt />{" "}
+          <CgMenuRightAlt />
         </h1>
         <div className="hidden md:flex items-center gap-3">
           <Button text="log in" outline="outline" link="/account/login" />

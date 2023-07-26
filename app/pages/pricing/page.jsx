@@ -12,14 +12,13 @@ export default function page() {
         <h1 className="text-3xl font-bold text-center my-4">Pricing</h1>
         <h1 className="text-lg text-center mx-3 md:w-1/3 md:mx-auto">
           Our pricing is not expensive, but it's not cheap either, it' exactly
-          what it should be{" "}
+          what it should be
         </h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 my-10">
         <div className="px-5 min-h-fit py-9 shadow hover:shadow-2xl rounded-md">
           <h1 className="font-semibold">Basic</h1>
           <h1 className="text-4xl font-bold my-4">
-            {" "}
             <sup>$</sup>9<sub>/month</sub>
           </h1>
           <h1 className="mt-7 mb-7">For individuals and small teams</h1>
@@ -33,7 +32,6 @@ export default function page() {
             </h1>
           </div>
           <h1 className="text-4xl font-bold my-4">
-            {" "}
             <sup>$</sup>19<sub>/month</sub>
           </h1>
           <h1 className="mt-7 mb-7">For startups and growing businesses</h1>
@@ -42,7 +40,6 @@ export default function page() {
         <div className="px-5 min-h-fit py-9 shadow hover:shadow-2xl rounded-md">
           <h1 className="font-semibold">Basic</h1>
           <h1 className="text-4xl font-bold my-4">
-            {" "}
             <sup>$</sup>99<sub>/month</sub>
           </h1>
           <h1 className="mt-7 mb-7">For organizations with advanced needs</h1>
