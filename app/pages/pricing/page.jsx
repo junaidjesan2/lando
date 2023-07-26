@@ -11,7 +11,7 @@ export default function page() {
       <div>
         <h1 className="text-3xl font-bold text-center my-4">Pricing</h1>
         <h1 className="text-lg text-center mx-3 md:w-1/3 md:mx-auto">
-          Our pricing is not expensive, but it's not cheap either, it' exactly
+          Our pricing is not expensive, but it is not cheap either, it is exactly
           what it should be
         </h1>
       </div>

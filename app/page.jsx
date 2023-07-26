@@ -34,7 +34,7 @@ export default function Home() {
       <section className="my-10">
         <div>
           <h1 className="w-2/3 md:w-1/4 mx-auto text-center my-3">
-            Trusted by individuals and teams at the world's best companies
+            Trusted by individuals and teams at the world is best companies
           </h1>
         </div>
         <div className="flex items-center justify-center gap-7 md:gap-16 my-12">
