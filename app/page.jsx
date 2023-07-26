@@ -11,11 +11,12 @@ import CostSaving from "../public/banner/costSaving.jpg";
 
 import { FaStar } from "react-icons/fa";
 import Button from "@/components/shared/Button";
+import BannerSignup from "@/components/shared/BannerSignup";
 
 export default function Home() {
   return (
     <section>
-      <section className="my-28 px-3">
+      <section className="my-10 md:my-28 px-3">
         <div className="md:w-1/2 my-16">
           <h1 className="text-xs text-slate-300">-FREE 30 DAYS TRIAL</h1>
           <h1 className="text-5xl my-4">
@@ -96,7 +97,7 @@ export default function Home() {
           <Button text="Try now" outline="outline" link="#"/>
         </div>
       </section>
-      <section className="md:h-screen my-6">
+      <section className="md:h-screen my-6 text-black">
         <div className=" md:flex items-end drop-shadow-xl my-20 bg-orange-50 px-10 py-8">
           <div className="w-full md:w-2/3">
             <h1 className="text-5xl font-bold my-7">
@@ -135,8 +136,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="md:my-60 my-48">
-        <div className="text-center">
+      <section className="md:my-60 my-32 text-black">
+        <div className="text-center text-white">
           <h1 className="text-3xl font-bold">Testimonials</h1>
           <h1 className="text-md">
             People love what we do and we want to let you know
@@ -187,17 +188,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="my-7">
-        <div className="px-10 py-20 rounded-md bg-orange-50 text-black">
-          <h1 className="text-5xl w-full md:w-2/4 my-3 font-bold">
-            Get started with Lando today
-          </h1>
-          <h1 className="text-base my-6">
-            Start optimizing your processes today
-          </h1>
-          <Button text="Sign up now" outline="outline" link="/account/signup"/>
-        </div>
-      </section>
+      <div>
+        <BannerSignup/>
+      </div>
     </section>
   );
 }
